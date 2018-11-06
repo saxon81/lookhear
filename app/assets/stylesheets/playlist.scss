@@ -1,0 +1,32 @@
+// Place all the styles related to the Playlist controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	font-family: 'Orbitron', sans-serif;
+	-webkit-font-smoothing: antialiased;
+  	margin: 0px;
+  	padding: 0px;
+  	background-image: url("bg-1.jpg");
+  	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+header {
+	margin: auto;
+	width: 25%;
+	padding: 15px 0px 0px 0px;
+}
+
+.navbar-text .pull-right {
+	padding: 0px
+}
+
+.navbar-link {
+	color: #C78125;
+	margin: 0px 0px 0px 5px;
+}
+
+
