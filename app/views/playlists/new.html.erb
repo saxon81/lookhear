@@ -1,0 +1,19 @@
+<% if current_user %>
+  <%= form_for(@playlist) do |form| %>
+    <% if flash[:errors] %>
+      <% flash[:errors].each do |error| %>
+        <%= error %>
+      <% end %>
+    <% end %>
+    <div class="field">
+      <%= form.label :photo, 'Attach image (jpg or png)' %><br>
+      <%= form.file_field :photo %>
+    </div>
+
+    <div class="actions">
+      <%= form.submit %>
+    </div>
+  <% end %>
+<% else %>
+  redirect_to new_user_session_path
+<% end %>

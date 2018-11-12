@@ -7,7 +7,7 @@ body {
 	-webkit-font-smoothing: antialiased;
   	margin: 0px;
   	padding: 0px;
-  	background-image: url("bg-1.jpg");
+  	background-image: url("bg-4-smoke.jpg");
   	height: 100%;
   	background-position: center;
   	background-repeat: no-repeat;
@@ -15,18 +15,74 @@ body {
 }
 
 header {
-	margin: auto;
-	width: 25%;
-	padding: 15px 0px 0px 0px;
+	padding: 10px 5px 0px 5px;
 }
 
-.navbar-text .pull-right {
-	padding: 0px
+.logo-head {
+	width: 135px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.navbar-text.pull-right {
+	padding-top: 5px;
+	margin-top: 0px;
+	font-size: 12px;
+	color: #ffffff;
+	float: right;
+	width: 105px;
 }
 
 .navbar-link {
-	color: #C78125;
-	margin: 0px 0px 0px 5px;
+	color: #ffffff;
+	margin: 0px;
 }
 
+.alert.alert-danger {
+	text-align: center;
+}
 
+.alert.alert-success {
+	color: #ffffff;
+	font-size: 12px;
+	padding-left: 15px;
+	width: 50px;
+}
+
+h2 {
+	font-size: 18px;
+	color: #1CB954;
+	text-align: center;
+}
+
+.field {
+	text-align: center;
+	opacity: 0.8;
+	border: 1px;
+	font-weight: 600;
+}
+
+.actions {
+	text-align: center;
+	opacity: 0.8;
+	padding: 10px;
+}
+
+input[type=submit] {
+	font-size: 15px;
+	padding: 5px 15px;
+	width: auto;
+}
+
+a {
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.spotify-connect {
+	font-size: 16px;
+	color: #1CB954;
+	text-align: center;
+}
