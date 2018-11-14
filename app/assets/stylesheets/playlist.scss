@@ -27,17 +27,17 @@ header {
 }
 
 .navbar-text.pull-right {
-	padding-top: 5px;
 	margin-top: 0px;
 	font-size: 12px;
 	color: #ffffff;
 	float: right;
 	width: 105px;
+	text-align: center;
 }
 
 .navbar-link {
-	color: #ffffff;
 	margin: 0px;
+	color: #3d5894;
 }
 
 .alert.alert-danger {
@@ -48,13 +48,19 @@ header {
 	color: #ffffff;
 	font-size: 12px;
 	padding-left: 15px;
-	width: 50px;
+	width: 125px;
 }
 
 h2 {
-	font-size: 18px;
-	color: #1CB954;
-	text-align: center;
+    color: #334390;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+label {
+	color: #35415a;
 }
 
 .field {
@@ -62,27 +68,38 @@ h2 {
 	opacity: 0.8;
 	border: 1px;
 	font-weight: 600;
+	color: #2d416d;
 }
 
 .actions {
-	text-align: center;
-	opacity: 0.8;
-	padding: 10px;
+	border-radius: 30px;
+  	color: #fff;
+  	background-color: transparent;
+  	text-transform: uppercase;
+  	text-align: center;
+  	letter-spacing: 1px;
 }
 
-input[type=submit] {
-	font-size: 15px;
-	padding: 5px 15px;
-	width: auto;
-}
-
-a {
-	color: #ffffff;
-	font-size: 12px;
+input {
+	border-radius: 30px;
+	border: none;
+  	transition: all ease .4s;
+  	width: 200px;
+  	height: 25px;
+  	opacity: 0.8;
+  	padding-left: 10px;
 }
 
 .spotify-connect {
-	font-size: 16px;
-	color: #1CB954;
+	font-size: 20px;
 	text-align: center;
+	height: 100px;
+	margin-left: 465px;
+	margin-right: 465px;
+	line-height: 40px;
+	background: transparent;
+}
+
+a {
+	color: #2d416d;
 }

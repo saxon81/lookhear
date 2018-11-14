@@ -6,6 +6,5 @@ Rails.application.config.middleware.use OmniAuth::Builder do
 	    playlist-read-private
 	    playlist-modify-public
 	    playlist-modify-private
-	  ).join(' '),
-	provider_ignores_state: true
+	  ).join(' ')
 end
