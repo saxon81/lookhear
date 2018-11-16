@@ -48,7 +48,7 @@ class PlaylistsController < ApplicationController
     File.open(params[:playlist][:photo].tempfile.path) do |photo|
         @analysis = visual_recognition.classify(
             images_file: photo,
-            threshold: "0.5",
+            threshold: "0.15",
             owners: ["me"]
         )
     end

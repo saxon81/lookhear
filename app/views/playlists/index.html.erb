@@ -1,5 +1,11 @@
-<div class="spotify-connect">
-	<%= link_to "Connect to Spotify", "/auth/spotify" %>
-	<img src="/assets/Spotify-social-media-128.png" height="30">
-	<%= link_to "Get Started", new_playlist_path %>
+<div class="container">
+	<div class="jumbotron">
+	  <h1 class="display-4">Welcome to LookHear!</h1>
+	  <p class="lead">Join the 4+ people around the world who are creating amazing playlists using only a photo with LookHear.</p>
+	  <hr class="my-4">
+	  <p>Connect to your Spotify account and then click "Get Started" to upload a photo.</p>
+	  <%= link_to "Connect to Spotify", "/auth/spotify", class: "btn btn-secondary btn-lg" %>
+	  <%= link_to "Get Started", new_playlist_path, class: "btn btn-primary btn-lg" %>
+	</div>
+	
 </div>

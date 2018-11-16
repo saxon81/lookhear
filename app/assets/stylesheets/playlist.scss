@@ -3,91 +3,155 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-	font-family: 'Orbitron', sans-serif;
-	-webkit-font-smoothing: antialiased;
-  	margin: 0px;
-  	padding: 0px;
-  	background-image: url("bg-4-smoke.jpg");
-  	height: 100%;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
+	// font-family: 'Orbitron', sans-serif;
+	// -webkit-font-smoothing: antialiased;
+  	// margin: 0px;
+  	// padding: 0px;
+  	// background-image: url("LOOKHEAR logo copy.png");
+  	// height: 100%;
+  	// background-repeat: no-repeat;
+  	// background-size: cover;
+  	background-color: #343a40;
 }
 
-header {
-	padding: 10px 5px 0px 5px;
+.navbar {
+	background-image: linear-gradient(to bottom right, #29a645, #353A3F 60%, #353A3F);
 }
 
-.logo-head {
-	width: 135px;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+.collapse.navbar-collapse {
+	margin-bottom: 20px;
 }
 
-.navbar-text.pull-right {
-	margin-top: 0px;
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+.nav-link {
 	font-size: 12px;
-	color: #ffffff;
-	float: right;
-	width: 105px;
-	text-align: center;
 }
 
-.navbar-link {
-	margin: 0px;
-	color: #3d5894;
+.navbar-nav {
+	height: 40px;
 }
 
 .alert.alert-danger {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 18px;
+    text-transform: uppercase;
 	text-align: center;
+	color: #29a645;
+	background-color: #353A3F;
+	border-color: #29a645;
 }
 
 .alert.alert-success {
-	color: #ffffff;
-	font-size: 12px;
-	padding-left: 15px;
-	width: 125px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 18px;
+    text-transform: uppercase;
+	text-align: center;
+	color: #29a645;
+	background-color: #353A3F;
+	border-color: #29a645;
 }
 
 h2 {
-    color: #334390;
-    margin-bottom: 1rem;
-    font-weight: 600;
+	font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
+    margin-top: 12px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+h3 {
+	font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    color: #29a645;
     text-align: center;
 }
 
+h5 {
+	font-family: 'Orbitron', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	color: black;
+}
+
+ul {
+	margin-left: 5px;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+li {
+	color: black;
+	list-style-type: none;
+}
+
+li:before {
+	content: '\2022';
+	color: #29a645;
+	padding-right: 0.5em;
+}
+
+.partners {
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: #AFB0B2;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+
+.btn.btn-secondary.btn-lg {
+	background: #29a645;
+	border-color: #343a40;
+}
+
+.btn.btn-primary.btn-lg {
+	background: #343a40;
+	border-color: #29a645;
+}
+
 label {
-	color: #35415a;
+	color: #29a645;
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+em {
+	color: #29a645;
+	font-size: 12px;
+	margin-bottom: 0px;
 }
 
 .field {
 	text-align: center;
 	opacity: 0.8;
-	border: 1px;
 	font-weight: 600;
-	color: #2d416d;
+	height: 60px;
 }
 
 .actions {
-	border-radius: 30px;
-  	color: #fff;
-  	background-color: transparent;
-  	text-transform: uppercase;
   	text-align: center;
-  	letter-spacing: 1px;
+  	margin-top: 25px;
 }
 
 input {
 	border-radius: 30px;
 	border: none;
-  	transition: all ease .4s;
-  	width: 200px;
+  	width: 220px;
   	height: 25px;
-  	opacity: 0.8;
+  	opacity: 0.6;
   	padding-left: 10px;
+  	font-size: 16px;
+  	color: #29a645;
 }
 
 .spotify-connect {
@@ -101,5 +165,10 @@ input {
 }
 
 a {
-	color: #2d416d;
+	font-size: 18px;
+	margin-left: 10px;
+	color: white;
+	text-align: center;
 }
+
+
