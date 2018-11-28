@@ -15,6 +15,13 @@ class PlaylistsController < ApplicationController
   end
 
   def show
+    @playlist = Playlist.find(params[:id])
+    spotify_user = RSpotify::User.new(current_user.spotify_data)
+
+    RSpotify.authenticate(Rails.application.credentials.spotify[:client_id], Rails.application.credentials.spotify[:client_secret])
+    playlist = RSpotify::Playlist.find(spotify_user.id, @playlist.spotify_id)
+    @playlist_url = playlist.external_urls["spotify"]
+    @playlist_image = playlist.images.first ? playlist.images.first["url"] : ""
   end
 
   def add_song
